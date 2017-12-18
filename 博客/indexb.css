@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 0.5rem;
+  background: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 0.5rem;
+  z-index: 999;
+}
+
+.tou {
+  display: flex;
+  justify-content: center;
+}
+
+.toubu {
+  font-size: 0.15rem;
+  color: #fff;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.tu {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.tu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.shou {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0.1rem;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+.shou a {
+  display: block;
+  width: 0.48rem;
+  height: 0.48rem;
+  background: url("img/feed_ic_search_normal.png") no-repeat 50%;
+  background-size: 0.3rem;
+}
+
+section {
+  padding: 0.1rem 0.1rem;
+}
+
+.bb {
+  margin-top: 0.5rem;
+}
+
+.zuo {
+  width: 100%;
+  height: 1.2rem;
+}
+
+.zuo .biao {
+  padding: 0.1rem 0.1rem;
+  font-size: 0.15rem;
+  color: #979797;
+}
+
+footer {
+  padding: 0.3rem 0.1rem;
+}
+
+footer h2 {
+  font-size: 0.17rem;
+  color: #505050;
+  padding-bottom: 0.1rem;
+  font-weight: 400;
+  border-bottom: 0.01rem solid #f85959;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.05rem;
+}
+
+.comment .biaozhi {
+  width: 0.32rem;
+  height: 0.32rem;
+  border-radius: 0.32rem;
+  overflow: hidden;
+}
+
+.comment .biaozhi img {
+  width: 0.32rem;
+  height: 0.32rem;
+  display: block;
+  background: url("img/home_head_default.png") no-repeat 50%;
+  background-size: 100%;
+  overflow: hidden;
+  border: none;
+}
+
+.comment .neirong {
+  width: 86%;
+  height: 2rem;
+}
+
+.comment .neirong .name {
+  display: flex;
+}
+
+.comment .neirong .name span {
+  font-size: 0.2rem;
+  color: #979797;
+}
+
+.pinglun {
+  padding: 0.1rem 0;
+  font-size: 0.17rem;
+}
+
+.dianji {
+  background-color: #e9e9e9;
+  margin: 0.1rem 0;
+  color: #999;
+  text-align: center;
+}
+
+.dianji span {
+  background: url("img/wap_ic_more03.png") no-repeat 50%;
+  font-size: 0.17rem;
+  background-size: 0.17rem;
+  padding-right: 0.5rem;
+}
